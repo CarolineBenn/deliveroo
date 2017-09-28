@@ -7,3 +7,14 @@ body {
 div {
   box-sizing: border-box;
 }
+
+
+/**
+ * Global styles.
+ */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
