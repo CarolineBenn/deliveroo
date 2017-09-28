@@ -12,7 +12,6 @@ const NeighbourhoodPage = ({ name, description, hero, count, restaurants }) => (
       count={count}
       hero={hero}
     />
-    <h1>NeighbourhoodPage</h1>
     <RestaurantList restaurants={restaurants} />
   </div>
 );

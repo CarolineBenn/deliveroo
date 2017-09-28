@@ -1,0 +1,38 @@
+.restaurantListItem__container {
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.restaurantListItem__name {
+  font-size: 18px;
+}
+
+.restaurantListItem__details {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 14px;
+  text-align: right;
+  color: #9B9B9B;
+}
+
+.restaurantListItem__detail {
+  line-height: normal;
+}
+
+/**
+ * TODO.
+ * THINK OF BETTER NAME FOR 'ROW';
+ */
+ .restaurantListItem__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.restaurantListItem__arrow {
+  padding-left: 1rem;
+}

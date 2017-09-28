@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestaurantList renders correctly 1`] = `
+<ul
+  className="unstyledList"
+>
+  <RestaurantListItem
+    id={1}
+    name="Bobo Social"
+    permalink="/bobo-social"
+    priceCategory="££"
+    tags={
+      Array [
+        "Vietnamese",
+      ]
+    }
+    time="30"
+  />
+  <RestaurantListItem
+    id={2}
+    name="Tsunami"
+    permalink="tsunami"
+    priceCategory="££"
+    tags={
+      Array [
+        "Vietnamese",
+      ]
+    }
+    time="30"
+  />
+  <RestaurantListItem
+    id={3}
+    name="Wild Game Co"
+    permalink="wild-game-co"
+    priceCategory="££"
+    tags={
+      Array [
+        "Vietnamese",
+      ]
+    }
+    time="30"
+  />
+</ul>
+`;

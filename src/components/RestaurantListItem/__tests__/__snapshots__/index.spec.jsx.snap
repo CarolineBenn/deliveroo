@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestaurantListItem renders correctly 1`] = `
+<li
+  className="restaurantListItem__container"
+>
+  <h3
+    className="restaurantListItem__name"
+  />
+  <div
+    className="restaurantListItem__row"
+  >
+    <div
+      className="restaurantListItem__details"
+    >
+      <span
+        className="restaurantListItem__detail"
+      />
+      <span
+        className="hideBelowMDInline"
+      />
+      <span
+        className="restaurantListItem__detail"
+      >
+        undefined minutes
+      </span>
+    </div>
+    <div>
+      <Arrow
+        fill="#1EBAB2"
+      />
+    </div>
+  </div>
+</li>
+`;

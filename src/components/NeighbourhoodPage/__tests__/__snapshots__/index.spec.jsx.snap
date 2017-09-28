@@ -2,9 +2,32 @@
 
 exports[`NeighbourhoodPage renders correctly 1`] = `
 <div>
-  <h1>
-    NeighbourhoodPage
-  </h1>
+  <div
+    className="neighbourhood__hero-container"
+    style={
+      Object {
+        "backgroundImage": "url(/images/neighbourhoodhero.png)",
+      }
+    }
+  >
+    <div
+      className="neighbourhood__hero-details"
+    >
+      <span>
+        34
+         restaurants delivering to
+      </span>
+      <h1>
+        Hampstead
+      </h1>
+      <p>
+        Hampstead is a great place to while away a whole day. As well as three of London’s biggest and best museums, there’re plenty of other things to do that are sure to entertain and amuse everyone in your group.
+      </p>
+    </div>
+    <div
+      className="overlay"
+    />
+  </div>
   <RestaurantList
     restaurants={
       Array [
