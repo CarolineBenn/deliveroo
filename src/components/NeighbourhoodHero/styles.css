@@ -1,0 +1,26 @@
+.neighbourhood__hero-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  padding: 1rem;
+  color: white;
+}
+
+.neighbourhood__hero-details { 
+  position: relative;
+  text-align: center;
+  z-index: 1000;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}

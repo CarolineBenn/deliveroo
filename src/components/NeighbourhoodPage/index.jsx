@@ -2,9 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import RestaurantList from '../RestaurantList';
+import NeighbourhoodHero from '../NeighbourhoodHero';
 
-const NeighbourhoodPage = ({ name, description, count, restaurants }) => (
+const NeighbourhoodPage = ({ name, description, hero, count, restaurants }) => (
   <div>
+    <NeighbourhoodHero
+      name={name}
+      description={description}
+      count={count}
+      hero={hero}
+    />
     <h1>NeighbourhoodPage</h1>
     <RestaurantList restaurants={restaurants} />
   </div>
@@ -14,17 +21,21 @@ export default NeighbourhoodPage;
 
 NeighbourhoodPage.propTypes = {
   /**
-   * String name of Neighbourhood.
+   * Number of restaurants serving neighbourhood.
    */
-  name: PropTypes.string.isRequired,
+  count: PropTypes.number.isRequired,
   /**
    * String paragraph describing local area.
    */
   description: PropTypes.string,
   /**
-   * Number of restaurants serving neighbourhood.
+   * String URL of hero image.
    */
-  count: PropTypes.number.isRequired,
+  hero: PropTypes.string.isRequired,
+  /**
+   * String name of Neighbourhood.
+   */
+  name: PropTypes.string.isRequired,
   /**
    * Array of establishments serving neighbourhood.
    */
