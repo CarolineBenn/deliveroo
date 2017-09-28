@@ -6,6 +6,7 @@ import { neighbourhood } from '../../../data';
 import NeighbourhoodPage from '..';
 
 // Mock components that have their own snapshot tests
+jest.mock('../../Container', () => 'Container');
 jest.mock('../../RestaurantList', () => 'RestaurantList');
 
 test('NeighbourhoodPage renders correctly', () => {

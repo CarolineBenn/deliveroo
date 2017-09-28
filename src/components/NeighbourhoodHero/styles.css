@@ -22,3 +22,18 @@
 .neighbourhood_hero-name {  
   text-transform: uppercase;
 }
+
+
+@media (min-width: 678px) {
+  .neighbourhood_hero-description {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1160px) {
+  .neighbourhood_hero-description {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}

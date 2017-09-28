@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Container from '../Container';
 import RestaurantList from '../RestaurantList';
 import NeighbourhoodHero from '../NeighbourhoodHero';
 
@@ -12,7 +13,9 @@ const NeighbourhoodPage = ({ name, description, hero, count, restaurants }) => (
       count={count}
       hero={hero}
     />
-    <RestaurantList restaurants={restaurants} />
+    <Container>
+      <RestaurantList restaurants={restaurants} />
+    </Container>
   </div>
 );
 

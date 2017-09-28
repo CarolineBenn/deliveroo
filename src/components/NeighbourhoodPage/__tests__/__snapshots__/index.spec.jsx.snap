@@ -10,59 +10,67 @@ exports[`NeighbourhoodPage renders correctly 1`] = `
       }
     }
   >
-    <div
-      className="neighbourhood__hero-details"
-    >
-      <span>
-        34
-         restaurants delivering to
-      </span>
-      <h1>
-        Hampstead
-      </h1>
-      <p>
-        Hampstead is a great place to while away a whole day. As well as three of London’s biggest and best museums, there’re plenty of other things to do that are sure to entertain and amuse everyone in your group.
-      </p>
-    </div>
+    <Container>
+      <div
+        className="neighbourhood__hero-details"
+      >
+        <span>
+          34
+           restaurants delivering to
+        </span>
+        <h1
+          className="neighbourhood_hero-name"
+        >
+          Hampstead
+        </h1>
+        <p
+          className="neighbourhood_hero-description"
+        >
+          Hampstead is a great place to while away a whole day. As well as three of London’s biggest and best museums, there’re plenty of other things to do that are sure to entertain and amuse everyone in your group.
+        </p>
+      </div>
+    </Container>
     <div
       className="overlay"
     />
   </div>
-  <RestaurantList
-    restaurants={
-      Array [
-        Object {
-          "id": 1,
-          "name": "Bobo Social",
-          "permalink": "/bobo-social",
-          "priceCategory": "££",
-          "tags": Array [
-            "Vietnamese",
-          ],
-          "time": "30",
-        },
-        Object {
-          "id": 2,
-          "name": "Tsunami",
-          "permalink": "tsunami",
-          "priceCategory": "££",
-          "tags": Array [
-            "Vietnamese",
-          ],
-          "time": "30",
-        },
-        Object {
-          "id": 3,
-          "name": "Wild Game Co",
-          "permalink": "wild-game-co",
-          "priceCategory": "££",
-          "tags": Array [
-            "Vietnamese",
-          ],
-          "time": "30",
-        },
-      ]
-    }
-  />
+  <Container>
+    <RestaurantList
+      restaurants={
+        Array [
+          Object {
+            "id": 1,
+            "name": "Bobo Social",
+            "permalink": "/bobo-social",
+            "priceCategory": "££",
+            "tags": Array [
+              "Vietnamese",
+            ],
+            "time": "30",
+          },
+          Object {
+            "id": 2,
+            "name": "Tsunami",
+            "permalink": "tsunami",
+            "priceCategory": "££",
+            "tags": Array [
+              "Vietnamese",
+            ],
+            "time": "30",
+          },
+          Object {
+            "id": 3,
+            "name": "Wild Game Co",
+            "permalink": "wild-game-co",
+            "priceCategory": "££",
+            "tags": Array [
+              "Vietnamese",
+            ],
+            "time": "30",
+          },
+        ]
+      }
+    />
+  </Container>
 </div>
 `;
