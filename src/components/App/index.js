@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import { neighbourhood } from '../data';
+import { neighbourhood } from '../../data';
 
-import NeighbourhoodPage from '../components/NeighbourhoodPage';
+import NeighbourhoodPage from '../NeighbourhoodPage';
 
-import './App.css';
+import './styles.css';
 
 class App extends Component {
   render() {

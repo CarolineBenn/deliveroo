@@ -1,30 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import RestaurantList from '../RestaurantList';
+import RestaurantListItem from '../RestaurantListItem';
 
-const NeighbourhoodPage = ({ name, description, count, restaurants }) => (
-  <div>
-    <h1>NeighbourhoodPage</h1>
-    <RestaurantList restaurants={restaurants} />
-  </div>
+const RestaurantList = ({ restaurants }) => (
+  <ul>
+    {restaurants.map(restaurant => (
+      <RestaurantListItem key={restaurant.id} {...restaurant} />
+    ))}
+  </ul>
 );
 
-export default NeighbourhoodPage;
+export default RestaurantList;
 
-NeighbourhoodPage.propTypes = {
-  /**
-   * String name of Neighbourhood.
-   */
-  name: PropTypes.string.isRequired,
-  /**
-   * String paragraph describing local area.
-   */
-  description: PropTypes.string,
-  /**
-   * Number of restaurants serving neighbourhood.
-   */
-  count: PropTypes.number.isRequired,
+RestaurantList.propTypes = {
   /**
    * Array of establishments serving neighbourhood.
    */
@@ -54,4 +43,4 @@ NeighbourhoodPage.propTypes = {
      */
     permalink:  PropTypes.string.isRequired,
   })).isRequired,
-}
+};
