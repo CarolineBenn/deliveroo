@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 export const restaurants = [
   {
     id: 1,
@@ -8,7 +5,7 @@ export const restaurants = [
     tags: ['Vietnamese'],
     priceCategory: '££',
     time: '30',
-    url: '/bobo-social'
+    permalink: '/bobo-social'
   },
   {
     id: 2,
@@ -16,7 +13,7 @@ export const restaurants = [
     tags: ['Vietnamese'],
     priceCategory: '££',
     time: '30',
-    url: 'tsunami'
+    permalink: 'tsunami'
   },
   {
     id: 3,
@@ -24,7 +21,7 @@ export const restaurants = [
     tags: ['Vietnamese'],
     priceCategory: '££',
     time: '30',
-    url: 'wild-game-co'
+    permalink: 'wild-game-co'
   }
 ];
 
@@ -55,7 +52,7 @@ export const restaurant = {
 };
 
 
-const neighbourhood = {
+export const neighbourhood = {
   name: 'Hampstead',
   description: 'Hampstead is a great place to while away a whole day. As well as three of London’s biggest and best museums, there’re plenty of other things to do that are sure to entertain and amuse everyone in your group.',
   count: 34,
