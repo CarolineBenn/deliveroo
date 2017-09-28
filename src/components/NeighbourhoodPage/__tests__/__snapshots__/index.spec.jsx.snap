@@ -5,16 +5,41 @@ exports[`NeighbourhoodPage renders correctly 1`] = `
   <h1>
     NeighbourhoodPage
   </h1>
-  <ul>
-    <li>
-      Bobo Social
-    </li>
-    <li>
-      Tsunami
-    </li>
-    <li>
-      Wild Game Co
-    </li>
-  </ul>
+  <RestaurantList
+    restaurants={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Bobo Social",
+          "permalink": "/bobo-social",
+          "priceCategory": "££",
+          "tags": Array [
+            "Vietnamese",
+          ],
+          "time": "30",
+        },
+        Object {
+          "id": 2,
+          "name": "Tsunami",
+          "permalink": "tsunami",
+          "priceCategory": "££",
+          "tags": Array [
+            "Vietnamese",
+          ],
+          "time": "30",
+        },
+        Object {
+          "id": 3,
+          "name": "Wild Game Co",
+          "permalink": "wild-game-co",
+          "priceCategory": "££",
+          "tags": Array [
+            "Vietnamese",
+          ],
+          "time": "30",
+        },
+      ]
+    }
+  />
 </div>
 `;

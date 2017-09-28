@@ -5,6 +5,9 @@ import { neighbourhood } from '../../../data';
 
 import NeighbourhoodPage from '..';
 
+// Mock components that have their own snapshot tests
+jest.mock('../../RestaurantList', () => 'RestaurantList');
+
 test('NeighbourhoodPage renders correctly', () => {
   const tree = renderer
     .create(<NeighbourhoodPage {...neighbourhood} />)
