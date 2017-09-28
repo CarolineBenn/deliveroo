@@ -16,4 +16,9 @@
   position: relative;
   text-align: center;
   z-index: 1000;
+  font-family: 'Proxima Nova Soft Medium';
+}
+
+.neighbourhood_hero-name {  
+  text-transform: uppercase;
 }
