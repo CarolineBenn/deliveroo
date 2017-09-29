@@ -11,7 +11,21 @@ exports[`Header renders correctly 1`] = `
       className="site-name"
       href="/"
     >
-      Deliveroo
+      <img
+        className="logo hideBelowMD"
+        src="/images/logo.png"
+        title="Deliveroo Logo"
+      />
+      <span
+        className="srOnly hideBelowMD"
+      >
+        Deliveroo
+      </span>
+      <span
+        className="hideAboveMD brand-name"
+      >
+        Deliveroo
+      </span>
     </a>
     <button
       className="reset menu-icon"
