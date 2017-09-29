@@ -6,7 +6,9 @@ exports[`RestaurantListItem renders correctly 1`] = `
 >
   <h3
     className="restaurantListItem__name"
-  />
+  >
+    Bobo Social
+  </h3>
   <div
     className="restaurantListItem__row"
   >
@@ -15,14 +17,18 @@ exports[`RestaurantListItem renders correctly 1`] = `
     >
       <span
         className="restaurantListItem__detail"
-      />
+      >
+        30 minutes
+      </span>
       <span
         className="hideBelowMDInline"
-      />
+      >
+        ££
+      </span>
       <span
         className="restaurantListItem__detail"
       >
-        undefined minutes
+        Vietnamese
       </span>
     </div>
     <div>
