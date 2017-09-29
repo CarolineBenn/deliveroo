@@ -5,6 +5,7 @@
   justify-content: space-between;
   padding: 1rem;
   border-bottom: 1px solid #E5E5E5;
+  position: relative;
 }
 
 .restaurantListItem__name {
@@ -16,6 +17,18 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.restaurantListItem__link {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.restaurantListItem__link:hover {
+  background: rgba(0, 0, 0, 0.01);
 }
 
 @media (min-width: 678px) {
