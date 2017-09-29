@@ -1,27 +1,3 @@
-@font-face {
-  font-family: 'Proxima Nova Soft Regular';
-  src: url('/fonts/proxima-nova-soft/ttf/Mark Simonson - Proxima Nova Soft Regular.ttf');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Proxima Nova Soft Medium';
-  src: url('/fonts/proxima-nova-soft/ttf/Mark Simonson - Proxima Nova Soft Medium.ttf');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Proxima Nova Soft Bold';
-  src: url('/fonts/proxima-nova-soft/ttf/Mark Simonson - Proxima Nova Soft Bold.ttf');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Proxima Nova Soft Semibold';
-  src: url('/fonts/proxima-nova-soft/ttf/Mark Simonson - Proxima Nova Soft Semibold.ttf');
-  font-weight: normal;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -31,7 +7,6 @@ body {
 div {
   box-sizing: border-box;
 }
-
 
 /**
  * Global styles.

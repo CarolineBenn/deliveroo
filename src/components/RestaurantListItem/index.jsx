@@ -22,7 +22,7 @@ const RestaurantListItem = ({
     </div>
     <div><Arrow fill="#1EBAB2" /></div>
   </div>
-  <a href={`#${permalink}`} className="restaurantListItem__link"></a>
+  <a href={`#${permalink}`} className="restaurantListItem__link"><span className="srOnly">Link to {name}</span></a>
 </li>
 );
 

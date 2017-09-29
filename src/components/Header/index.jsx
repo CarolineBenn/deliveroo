@@ -22,7 +22,12 @@ class Header extends Component {
       <header className="header">
         <div className="container header-inner-container">
           <a className="site-name" href="/">
-            <img src="/images/logo.png" className="logo hideBelowMD" title="Deliveroo Logo" />
+            <img
+            src="/images/logo.png"
+            className="logo hideBelowMD"
+            alt="Deliveroo Logo"
+            title="Deliveroo Logo"
+          />
             <span className="srOnly hideBelowMD">Deliveroo</span>
             <span className="hideAboveMD brand-name">Deliveroo</span>
           </a>

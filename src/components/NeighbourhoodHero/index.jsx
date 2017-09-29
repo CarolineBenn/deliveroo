@@ -8,7 +8,7 @@ const NeighbourhoodHero = ({ count, description, hero, name }) => (
   <div className="neighbourhood__hero-container" style={{ backgroundImage: `url(${hero})` }}>
     <Container>
       <div className="neighbourhood__hero-details">
-        <span>{count} restaurants delivering to</span>
+        <span className="neighbourhood__num-of-restaurants">{count} restaurants delivering to</span>
         <h1 className="neighbourhood_hero-name">{name}</h1>
         <p className="neighbourhood_hero-description">{description}</p>
       </div>

@@ -17,18 +17,30 @@
   position: relative;
   text-align: center;
   z-index: 1000;
-  font-family: 'Proxima Nova Soft Medium';
 }
 
-.neighbourhood_hero-name {  
+.neighbourhood__num-of-restaurants {
+  font-size: 12px;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
+.neighbourhood_hero-name {
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 5px;
+}
+
+.neighbourhood_hero-description {
+  font-size: 13px;
+  line-height: 18px;
+}
 
 @media (min-width: 678px) {
   .neighbourhood_hero-description {
     max-width: 75%;
     margin: 0 auto;
+    line-height: 24px;
   }
 }
 
