@@ -12,6 +12,7 @@ exports[`Header renders correctly 1`] = `
       href="/"
     >
       <img
+        alt="Deliveroo Logo"
         className="logo hideBelowMD"
         src="/images/logo.png"
         title="Deliveroo Logo"
@@ -63,7 +64,7 @@ exports[`Header renders correctly 1`] = `
         <li>
           <a
             className="header-nav-menu-item"
-            href="#"
+            href="/"
           >
             Search
           </a>
@@ -71,15 +72,15 @@ exports[`Header renders correctly 1`] = `
         <li>
           <a
             className="header-nav-menu-item"
-            href="#"
+            href="/"
           >
-            £8.95
+            £8.55
           </a>
         </li>
         <li>
           <a
             className="header-nav-menu-item"
-            href="#"
+            href="/"
           >
             Simon Rohrbach
           </a>

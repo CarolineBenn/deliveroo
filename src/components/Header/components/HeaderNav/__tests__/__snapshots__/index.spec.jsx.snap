@@ -18,7 +18,7 @@ exports[`HeaderNav renders correctly 1`] = `
     <li>
       <a
         className="header-nav-menu-item"
-        href="#"
+        href="/"
       >
         Search
       </a>
@@ -26,15 +26,15 @@ exports[`HeaderNav renders correctly 1`] = `
     <li>
       <a
         className="header-nav-menu-item"
-        href="#"
+        href="/"
       >
-        £8.95
+        £8.55
       </a>
     </li>
     <li>
       <a
         className="header-nav-menu-item"
-        href="#"
+        href="/"
       >
         Simon Rohrbach
       </a>

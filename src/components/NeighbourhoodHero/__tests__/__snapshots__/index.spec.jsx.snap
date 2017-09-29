@@ -15,7 +15,9 @@ exports[`NeighbourhoodHero renders correctly 1`] = `
     <div
       className="neighbourhood__hero-details"
     >
-      <span>
+      <span
+        className="neighbourhood__num-of-restaurants"
+      >
         34
          restaurants delivering to
       </span>

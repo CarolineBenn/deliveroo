@@ -37,5 +37,16 @@ exports[`RestaurantListItem renders correctly 1`] = `
       />
     </div>
   </div>
+  <a
+    className="restaurantListItem__link"
+    href="#/bobo-social"
+  >
+    <span
+      className="srOnly"
+    >
+      Link to 
+      Bobo Social
+    </span>
+  </a>
 </li>
 `;
