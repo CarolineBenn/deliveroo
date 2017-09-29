@@ -19,13 +19,23 @@
   z-index: 1000;
 }
 
+@media (min-width: 678px) {
+  .neighbourhood__hero-details { 
+    /* Half height of header so details appear in middle of hero image */
+    margin-top: 2.5rem;
+  }
+}
+
 .neighbourhood__num-of-restaurants {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  opacity: 0.6;
 }
 
 .neighbourhood_hero-name {
+  font-family: 'Proxima Nova Medium', sans-serif;
   text-transform: uppercase;
   font-size: 28px;
   letter-spacing: 5px;
@@ -34,6 +44,7 @@
 .neighbourhood_hero-description {
   font-size: 13px;
   line-height: 18px;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 @media (min-width: 678px) {
