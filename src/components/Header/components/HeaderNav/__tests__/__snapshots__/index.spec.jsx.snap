@@ -1,13 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HeaderNav renders correctly 1`] = `
-<nav>
-  <ul>
+<nav
+  className="header-nav"
+>
+  <ul
+    className="unstyledList header-nav-menu"
+  >
     <li>
-      Home
+      <a
+        className="header-nav-menu-item"
+        href="/"
+      >
+        Home
+      </a>
     </li>
     <li>
-      Food
+      <a
+        className="header-nav-menu-item"
+        href="#"
+      >
+        Search
+      </a>
+    </li>
+    <li>
+      <a
+        className="header-nav-menu-item"
+        href="#"
+      >
+        £8.95
+      </a>
+    </li>
+    <li>
+      <a
+        className="header-nav-menu-item"
+        href="#"
+      >
+        Simon Rohrbach
+      </a>
     </li>
   </ul>
 </nav>

@@ -4,30 +4,74 @@ exports[`Header renders correctly 1`] = `
 <header
   className="header"
 >
-  <a
-    className="site-name"
-    href="/"
+  <div
+    className="container header-inner-container"
   >
-    Deliveroo
-  </a>
-  <button
-    className="reset menu-icon"
-    onClick={[Function]}
-  >
-    <span
-      className="srOnly"
+    <a
+      className="site-name"
+      href="/"
     >
-      Toggle navigation
-    </span>
-    <span
-      className="bar"
-    />
-    <span
-      className="bar"
-    />
-    <span
-      className="bar"
-    />
-  </button>
+      Deliveroo
+    </a>
+    <button
+      className="reset menu-icon"
+      onClick={[Function]}
+    >
+      <span
+        className="srOnly"
+      >
+        Toggle navigation
+      </span>
+      <span
+        className="bar"
+      />
+      <span
+        className="bar"
+      />
+      <span
+        className="bar"
+      />
+    </button>
+    <nav
+      className="header-nav"
+    >
+      <ul
+        className="unstyledList header-nav-menu"
+      >
+        <li>
+          <a
+            className="header-nav-menu-item"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            className="header-nav-menu-item"
+            href="#"
+          >
+            Search
+          </a>
+        </li>
+        <li>
+          <a
+            className="header-nav-menu-item"
+            href="#"
+          >
+            £8.95
+          </a>
+        </li>
+        <li>
+          <a
+            className="header-nav-menu-item"
+            href="#"
+          >
+            Simon Rohrbach
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 `;

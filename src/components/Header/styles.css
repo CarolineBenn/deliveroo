@@ -1,3 +1,12 @@
+@media (min-width: 678px) { 
+  .header-inner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 .header {
   background-color: #000000; 
   height: 45px;
@@ -7,6 +16,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  z-index: 1030;
 }
 
 @media (min-width: 678px) {
@@ -15,7 +25,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1000;
+    height: 5rem;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-size: 14px;
   }
 }
 
