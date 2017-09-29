@@ -37,6 +37,7 @@
   display: block;
   color: #FFFFFF;
   text-decoration: none;
+  font-family: 'Proxima Nova Soft Semibold', sans-serif;
 }
 .header-nav-menu-item:hover,
 .header-nav-menu-item:focus {
