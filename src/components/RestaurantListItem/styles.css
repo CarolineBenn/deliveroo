@@ -9,28 +9,47 @@
 
 .restaurantListItem__name {
   font-size: 18px;
+  margin: 0;
 }
+
+.restaurantListItem__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (min-width: 678px) {
+  .restaurantListItem__row {
+    min-width: 40%;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1160px) {
+  .restaurantListItem__row {
+    min-width: 33.3%;
+  }
+}
+
 
 .restaurantListItem__details {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   font-size: 14px;
   text-align: right;
   color: #9B9B9B;
 }
 
-.restaurantListItem__detail {
-  line-height: normal;
+@media (min-width: 678px) {
+  .restaurantListItem__details {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 
-/**
- * TODO.
- * THINK OF BETTER NAME FOR 'ROW';
- */
- .restaurantListItem__row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.restaurantListItem__detail {
+  line-height: normal;
 }
 
 .restaurantListItem__arrow {

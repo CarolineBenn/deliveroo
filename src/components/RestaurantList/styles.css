@@ -1,0 +1,9 @@
+@media (min-width: 678px) {
+  .restaurantList {
+    margin: 3rem 0;
+  }
+}
+
+.restaurantList:first-child {
+  border-top: 1px solid #E5E5E5;
+}

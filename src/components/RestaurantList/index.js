@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 
 import RestaurantListItem from '../RestaurantListItem';
 
+import './styles.css';
+
 const RestaurantList = ({ restaurants }) => (
-  <ul className="unstyledList">
+  <ul className="unstyledList restaurantList">
     {restaurants.map(restaurant => (
       <RestaurantListItem key={restaurant.id} {...restaurant} />
     ))}
