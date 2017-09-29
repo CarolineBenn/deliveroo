@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderNav renders correctly 1`] = `
+<nav>
+  <ul>
+    <li>
+      Home
+    </li>
+    <li>
+      Food
+    </li>
+  </ul>
+</nav>
+`;

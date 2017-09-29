@@ -2,7 +2,7 @@
 
 exports[`RestaurantList renders correctly 1`] = `
 <ul
-  className="unstyledList"
+  className="unstyledList restaurantList"
 >
   <RestaurantListItem
     id={1}

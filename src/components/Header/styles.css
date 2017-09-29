@@ -1,0 +1,54 @@
+.header {
+  background-color: #000000; 
+  height: 45px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+@media (min-width: 678px) {
+  .header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+}
+
+.site-name {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-name:visited {
+  color: #FFFFFF;
+}
+
+.menu-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  right: 1rem;
+  top: calc(50% - 0.15rem);
+  transform: translateY(-50%);
+  outline: none;
+}
+
+@media (min-width: 678px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+.bar {
+  display: block;
+  width: 100%;
+  height: 0.20rem;
+  margin: 0.30rem auto;
+  border-radius: 5px;
+  background: #FFFFFF;
+}

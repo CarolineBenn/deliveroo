@@ -36,11 +36,38 @@ div {
 /**
  * Global styles.
  */
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.reset {
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  background: none;
+  line-height: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+}
+ 
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   height: 100%;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .unstyledList {

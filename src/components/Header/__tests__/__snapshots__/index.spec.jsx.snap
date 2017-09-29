@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="header"
+>
+  <a
+    className="site-name"
+    href="/"
+  >
+    Deliveroo
+  </a>
+  <button
+    className="reset menu-icon"
+    onClick={[Function]}
+  >
+    <span
+      className="srOnly"
+    >
+      Toggle navigation
+    </span>
+    <span
+      className="bar"
+    />
+    <span
+      className="bar"
+    />
+    <span
+      className="bar"
+    />
+  </button>
+</header>
+`;
