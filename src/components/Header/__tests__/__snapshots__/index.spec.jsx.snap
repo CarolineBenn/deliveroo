@@ -29,6 +29,7 @@ exports[`Header renders correctly 1`] = `
       </span>
     </a>
     <button
+      aria-controls="menuNav"
       className="reset menu-icon"
       onClick={[Function]}
     >
@@ -48,7 +49,9 @@ exports[`Header renders correctly 1`] = `
       />
     </button>
     <nav
+      aria-expanded={false}
       className="header-nav"
+      id="menuNav"
     >
       <ul
         className="unstyledList header-nav-menu"

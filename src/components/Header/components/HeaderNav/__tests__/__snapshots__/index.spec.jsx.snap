@@ -2,7 +2,9 @@
 
 exports[`HeaderNav renders correctly 1`] = `
 <nav
+  aria-expanded={false}
   className="header-nav"
+  id="menuNav"
 >
   <ul
     className="unstyledList header-nav-menu"
